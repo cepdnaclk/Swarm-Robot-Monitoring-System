@@ -1,12 +1,12 @@
 import cv2
 import numpy as np
 
-cX =[0,0,0,0,0]
-cY =[0,0,0,0,0]
-cX1=[1,1,1,1,1]
-cX2=[0,0,0,0,0]
-cY1=[1,1,1,1,1]
-cY2=[0,0,0,0,0]
+cX =np.array([[]],dtype =np.float32)
+cY =np.array([[]],dtype =np.float32)
+cX1=np.array([[]],dtype =np.float32)
+cX2=np.array([[]],dtype =np.float32)
+cY1=np.array([[]],dtype =np.float32)
+cY2=np.array([[]],dtype =np.float32)
 
 
 cap = cv2.VideoCapture("Message.mp4")
